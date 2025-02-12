@@ -18,7 +18,7 @@ console.log(reversedTeachers);
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [];
 
-for (i = 0; i < teachers.length; i++) {
+for (let i = 0; i < teachers.length; i++) {
   if (teachers[i].length >= 5)
   longNames.push(teachers[i]);
 }
